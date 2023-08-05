@@ -18,7 +18,7 @@ bool valid(int board[][9],int i,int j,int num,int n){
         }
     }
     // check in own box 
-    //mapin
+    //maping
     int rn=sqrt(n);
     int sr=i-(i%rn);
     int sc=j-(j%rn);
